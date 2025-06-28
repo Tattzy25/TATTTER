@@ -1,4 +1,0 @@
-[build]
-  base = "." # Using root directory since Next.js app is at the root
-  publish = ".next" # Next.js default output directory
-  command = "npm run build"
