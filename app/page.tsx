@@ -1,6 +1,9 @@
 'use client';
 
 import { useState } from 'react';
+
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Header } from '@/components/header';
 import { HeroSection } from '@/components/hero-section';
