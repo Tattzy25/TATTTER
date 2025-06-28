@@ -1,0 +1,4 @@
+[build]
+  base = "frontend" # or "." if root 
+  publish = "build" # where your final static files are 
+  command = "npm run build"
